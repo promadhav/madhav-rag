@@ -1,0 +1,11 @@
+﻿{
+    "status":  "LOCAL_BUILD_AND_OFFLINE_PACKAGING_PASS",
+    "tag":  "madhav-rag:mc3-v3",
+    "image_id":  "sha256:65d25847051ab10d0e54d42df735c78b0241387598eed3922f252764b2c647c1",
+    "uncompressed_layer_GiB":  37.746,
+    "model":  "Qwen/Qwen3-VL-4B-Instruct",
+    "revision":  "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "docker_gpu_inference_tested":  false,
+    "published":  false,
+    "checked_at":  "2026-10-24T17:17:30.7023999+05:30"
+}

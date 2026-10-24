@@ -1,0 +1,523 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20261021175400
+Username: DESKTOP-TVQ333K\AdmiN
+RunAs User: DESKTOP-TVQ333K\AdmiN
+Configuration Name: 
+Machine: DESKTOP-TVQ333K (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\START_WINDOWS.ps1
+Process ID: 17504
+PSVersion: 5.1.19041.7802
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.7802
+BuildVersion: 10.0.19041.7802
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+MADHAV RAG Qwen3 - WINDOWS LAPTOP build
+New weights: 8.887 GB (8.277 GiB), downloaded on THIS LAPTOP.
+Extra package download: approximately 50-150 MB if not cached.
+No Torch install, no Docker push, no Challenge 2 modifications.
+Tested code integrity: PASS
+Existing AMD image found. Base-layer cache reuse expected; Docker still checks registry metadata.
+Project drive free space: 35.86 GiB
+Check Docker Desktop disk-image location also has enough free space if it is on another drive.
+Downloading/resuming: chat_template.json
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   304  100   304    0     0    612      0 --:--:-- --:--:-- --:--:--   620
+100  5502  100  5502    0     0  10711      0 --:--:-- --:--:-- --:--:-- 10711
+Downloading/resuming: config.json
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   290  100   290    0     0    928      0 --:--:-- --:--:-- --:--:--   935
+100  1505  100  1505    0     0   4556      0 --:--:-- --:--:-- --:--:--  4556
+Downloading/resuming: generation_config.json
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   312  100   312    0     0   1008      0 --:--:-- --:--:-- --:--:--  1019
+100   269  100   269    0     0    831      0 --:--:-- --:--:-- --:--:--   831
+Downloading/resuming: merges.txt
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   288  100   288    0     0   1014      0 --:--:-- --:--:-- --:--:--  1021
+100 1632k  100 1632k    0     0  4053k      0 --:--:-- --:--:-- --:--:-- 4053k
+Downloading/resuming: model-00001-of-00002.safetensors
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  1110  100  1110    0     0   3021      0 --:--:-- --:--:-- --:--:--  3041
+100 4737M  100 4737M    0     0  31.3M      0  0:02:31  0:02:31 --:--:-- 31.0M
+Checking SHA256: model-00001-of-00002.safetensors
+Downloading/resuming: model-00002-of-00002.safetensors
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  1110  100  1110    0     0   3664      0 --:--:-- --:--:-- --:--:--  3687
+100 3727M  100 3727M    0     0  30.0M      0  0:02:04  0:02:04 --:--:-- 46.8M
+Checking SHA256: model-00002-of-00002.safetensors
+Downloading/resuming: model.safetensors.index.json
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   324  100   324    0     0   1117      0 --:--:-- --:--:-- --:--:--  1125
+100 64742  100 64742    0     0   203k      0 --:--:-- --:--:-- --:--:--  203k
+Downloading/resuming: preprocessor_config.json
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   316  100   316    0     0   1040      0 --:--:-- --:--:-- --:--:--  1042
+100   390  100   390    0     0   1222      0 --:--:-- --:--:-- --:--:--  1222
+Downloading/resuming: tokenizer.json
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   296  100   296    0     0   1109      0 --:--:-- --:--:-- --:--:--  1121
+100 6867k  100 6867k    0     0  11.1M      0 --:--:-- --:--:-- --:--:-- 2520k
+Downloading/resuming: tokenizer_config.json
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   310  100   310    0     0   1057      0 --:--:-- --:--:-- --:--:--  1068
+100 10868  100 10868    0     0  34888      0 --:--:-- --:--:-- --:--:-- 34888
+Downloading/resuming: video_preprocessor_config.json
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   328  100   328    0     0   1058      0 --:--:-- --:--:-- --:--:--  1068
+100   385  100   385    0     0   1177      0 --:--:-- --:--:-- --:--:--  1177
+Downloading/resuming: vocab.json
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   288  100   288    0     0    977      0 --:--:-- --:--:-- --:--:--   986
+100 2711k  100 2711k    0     0  5973k      0 --:--:-- --:--:-- --:--:-- 5973k
+MODEL FILES + WEIGHT CHECKSUMS: PASS
+Building madhav-rag:mc3-v3. Old tags stay unchanged.
+**********************
+Windows PowerShell transcript start
+Start time: 20261022173110
+Username: DESKTOP-TVQ333K\AdmiN
+RunAs User: DESKTOP-TVQ333K\AdmiN
+Configuration Name: 
+Machine: DESKTOP-TVQ333K (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\START_WINDOWS.ps1
+Process ID: 18900
+PSVersion: 5.1.19041.7802
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.7802
+BuildVersion: 10.0.19041.7802
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+MADHAV RAG Qwen3 - WINDOWS LAPTOP build
+New weights: 8.887 GB (8.277 GiB), downloaded on THIS LAPTOP.
+Extra package download: approximately 50-150 MB if not cached.
+No Torch install, no Docker push, no Challenge 2 modifications.
+Tested code integrity: PASS
+Existing AMD image found. Base-layer cache reuse expected; Docker still checks registry metadata.
+Project drive free space: 24.42 GiB
+
+STOPPED: Keep at least 35 GiB free on the project drive for weights, build context and new Docker layers. Send this output; do not delete old challenge images.
+Send the last output or BUILD_LOG.txt. Do not reinstall Torch or delete old challenge files.
+**********************
+Windows PowerShell transcript end
+End time: 20261022173117
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20261022173513
+Username: DESKTOP-TVQ333K\AdmiN
+RunAs User: DESKTOP-TVQ333K\AdmiN
+Configuration Name: 
+Machine: DESKTOP-TVQ333K (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\RESUME_WINDOWS.ps1
+Process ID: 16608
+PSVersion: 5.1.19041.7802
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.7802
+BuildVersion: 10.0.19041.7802
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+MADHAV RAG Qwen3 - WINDOWS LAPTOP build
+New weights: 8.887 GB (8.277 GiB), downloaded on THIS LAPTOP.
+Extra package download: approximately 50-150 MB if not cached.
+No Torch install, no Docker push, no Challenge 2 modifications.
+Tested code integrity: PASS
+Existing AMD image found. Base-layer cache reuse expected; Docker still checks registry metadata.
+Project drive free space: 25.38 GiB
+
+STOPPED: Keep at least 27 GiB free on the project drive for weights, build context and new Docker layers. Send this output; do not delete old challenge images.
+Send the last output or BUILD_LOG.txt. Do not reinstall Torch or delete old challenge files.
+**********************
+Windows PowerShell transcript end
+End time: 20261022173515
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20261024164056
+Username: DESKTOP-TVQ333K\AdmiN
+RunAs User: DESKTOP-TVQ333K\AdmiN
+Configuration Name: 
+Machine: DESKTOP-TVQ333K (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\START_WINDOWS.ps1
+Process ID: 18880
+PSVersion: 5.1.19041.7802
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.7802
+BuildVersion: 10.0.19041.7802
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+MADHAV RAG Qwen3 - WINDOWS LAPTOP build
+New weights: 8.887 GB (8.277 GiB), downloaded on THIS LAPTOP.
+Extra package download: approximately 50-150 MB if not cached.
+No Torch install, no Docker push, no Challenge 2 modifications.
+PS>TerminatingError(): "Docker Desktop check failed (exit 1). Send the output; do not continue manually."
+
+STOPPED: Docker Desktop check failed (exit 1). Send the output; do not continue manually.
+Send the last output or BUILD_LOG.txt. Do not reinstall Torch or delete old challenge files.
+**********************
+Windows PowerShell transcript end
+End time: 20261024164057
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20261024164608
+Username: DESKTOP-TVQ333K\AdmiN
+RunAs User: DESKTOP-TVQ333K\AdmiN
+Configuration Name: 
+Machine: DESKTOP-TVQ333K (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\START_WINDOWS.ps1
+Process ID: 3988
+PSVersion: 5.1.19041.7802
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.7802
+BuildVersion: 10.0.19041.7802
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+MADHAV RAG Qwen3 - WINDOWS LAPTOP build
+New weights: 8.887 GB (8.277 GiB), downloaded on THIS LAPTOP.
+Extra package download: approximately 50-150 MB if not cached.
+No Torch install, no Docker push, no Challenge 2 modifications.
+Tested code integrity: PASS
+Existing AMD image found. Base-layer cache reuse expected; Docker still checks registry metadata.
+Project drive free space: 50.9 GiB
+Check Docker Desktop disk-image location also has enough free space if it is on another drive.
+Already complete: chat_template.json
+Already complete: config.json
+Already complete: generation_config.json
+Already complete: merges.txt
+Checking SHA256: model-00001-of-00002.safetensors
+Already complete: model-00001-of-00002.safetensors
+Checking SHA256: model-00002-of-00002.safetensors
+Already complete: model-00002-of-00002.safetensors
+Already complete: model.safetensors.index.json
+Already complete: preprocessor_config.json
+Already complete: tokenizer.json
+Already complete: tokenizer_config.json
+Already complete: video_preprocessor_config.json
+Already complete: vocab.json
+MODEL FILES + WEIGHT CHECKSUMS: PASS
+Building madhav-rag:mc3-v3. Old tags stay unchanged.
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 1.17kB 0.0s done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/rocm/pytorch:rocm10.0_ubuntu26.04_py3.14_pytorch_release_2.13.0@sha256:3174cb7
+061d94c427da96c0edef4adea28046fa3f3b2ff3948dc4e995665ff8c
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 227B done
+#3 DONE 0.0s
+
+#4 [1/9] FROM docker.io/rocm/pytorch:rocm10.0_ubuntu26.04_py3.14_pytorch_release_2.13.0@sha256:3174cb7061d94c427da96c0ed
+ef4adea28046fa3f3b2ff3948dc4e995665ff8c
+#4 resolve docker.io/rocm/pytorch:rocm10.0_ubuntu26.04_py3.14_pytorch_release_2.13.0@sha256:3174cb7061d94c427da96c0edef4
+adea28046fa3f3b2ff3948dc4e995665ff8c 0.0s done
+#4 DONE 0.3s
+
+#5 [2/9] WORKDIR /app
+#5 DONE 0.1s
+
+#6 [internal] load build context
+#6 transferring context: 101.62MB 5.0s
+#6 transferring context: 163.99MB 10.0s
+#6 transferring context: 272.09MB 15.1s
+#6 transferring context: 358.02MB 20.2s
+#6 transferring context: 435.08MB 25.3s
+#6 transferring context: 504.01MB 30.3s
+#6 transferring context: 603.78MB 35.3s
+#6 transferring context: 696.90MB 40.4s
+#6 transferring context: 771.66MB 45.5s
+#6 transferring context: 864.91MB 50.5s
+#6 transferring context: 952.81MB 55.6s
+#6 transferring context: 1.04GB 60.8s
+#6 transferring context: 1.13GB 65.9s
+#6 transferring context: 1.22GB 71.1s
+#6 transferring context: 1.28GB 76.2s
+#6 transferring context: 1.37GB 81.2s
+#6 transferring context: 1.45GB 86.3s
+#6 transferring context: 1.53GB 91.4s
+#6 transferring context: 1.62GB 96.5s
+#6 transferring context: 1.71GB 101.5s
+#6 transferring context: 1.81GB 106.6s
+#6 transferring context: 1.89GB 111.7s
+#6 transferring context: 1.98GB 116.8s
+#6 transferring context: 2.06GB 121.9s
+#6 transferring context: 2.14GB 126.9s
+#6 transferring context: 2.23GB 132.0s
+#6 transferring context: 2.28GB 137.1s
+#6 transferring context: 2.32GB 142.1s
+#6 transferring context: 2.39GB 147.1s
+#6 transferring context: 2.46GB 152.2s
+#6 transferring context: 2.53GB 157.2s
+#6 transferring context: 2.61GB 162.2s
+#6 transferring context: 2.68GB 167.4s
+#6 transferring context: 2.74GB 172.4s
+#6 transferring context: 2.79GB 177.5s
+#6 transferring context: 2.85GB 182.5s
+#6 transferring context: 2.92GB 187.6s
+#6 transferring context: 2.94GB 193.4s
+#6 transferring context: 3.01GB 198.5s
+#6 transferring context: 3.07GB 203.5s
+#6 transferring context: 3.14GB 208.7s
+#6 transferring context: 3.22GB 213.8s
+#6 transferring context: 3.31GB 218.8s
+#6 transferring context: 3.39GB 223.9s
+#6 transferring context: 3.47GB 229.0s
+#6 transferring context: 3.56GB 234.0s
+#6 transferring context: 3.64GB 239.1s
+#6 transferring context: 3.73GB 244.2s
+#6 transferring context: 3.77GB 249.6s
+#6 transferring context: 3.86GB 254.6s
+#6 transferring context: 3.93GB 259.7s
+#6 transferring context: 4.00GB 264.8s
+#6 transferring context: 4.07GB 270.0s
+#6 transferring context: 4.15GB 275.1s
+#6 transferring context: 4.17GB 280.4s
+#6 transferring context: 4.27GB 285.6s
+#6 transferring context: 4.36GB 290.6s
+#6 transferring context: 4.43GB 295.7s
+#6 transferring context: 4.50GB 300.8s
+#6 transferring context: 4.58GB 305.8s
+#6 transferring context: 4.66GB 310.9s
+#6 transferring context: 4.72GB 316.8s
+#6 transferring context: 4.79GB 321.9s
+#6 transferring context: 4.88GB 327.0s
+#6 transferring context: 4.96GB 332.0s
+#6 transferring context: 5.03GB 337.2s
+#6 transferring context: 5.10GB 342.3s
+#6 transferring context: 5.17GB 347.3s
+#6 transferring context: 5.19GB 352.7s
+#6 transferring context: 5.29GB 357.8s
+#6 transferring context: 5.37GB 362.9s
+#6 transferring context: 5.43GB 367.9s
+#6 transferring context: 5.48GB 373.0s
+#6 transferring context: 5.50GB 378.5s
+#6 transferring context: 5.55GB 383.6s
+#6 transferring context: 5.63GB 388.7s
+#6 transferring context: 5.72GB 393.7s
+#6 transferring context: 5.81GB 398.8s
+#6 transferring context: 5.84GB 403.8s
+#6 transferring context: 5.94GB 408.9s
+#6 transferring context: 6.02GB 414.0s
+#6 transferring context: 6.10GB 419.0s
+#6 transferring context: 6.17GB 424.1s
+#6 transferring context: 6.26GB 429.2s
+#6 transferring context: 6.35GB 434.2s
+#6 transferring context: 6.41GB 439.3s
+#6 transferring context: 6.48GB 444.5s
+#6 transferring context: 6.57GB 449.6s
+#6 transferring context: 6.66GB 454.7s
+#6 transferring context: 6.72GB 459.7s
+#6 transferring context: 6.81GB 464.8s
+#6 transferring context: 6.90GB 469.9s
+#6 transferring context: 6.97GB 475.1s
+#6 transferring context: 7.06GB 480.1s
+#6 transferring context: 7.10GB 485.7s
+#6 transferring context: 7.18GB 490.8s
+#6 transferring context: 7.24GB 495.8s
+#6 transferring context: 7.31GB 500.8s
+#6 transferring context: 7.36GB 505.9s
+#6 transferring context: 7.45GB 510.9s
+#6 transferring context: 7.53GB 516.1s
+#6 transferring context: 7.58GB 521.1s
+#6 transferring context: 7.63GB 526.2s
+#6 transferring context: 7.65GB 531.2s
+#6 transferring context: 7.70GB 536.3s
+#6 transferring context: 7.75GB 541.3s
+#6 transferring context: 7.77GB 546.4s
+#6 transferring context: 7.81GB 551.4s
+#6 transferring context: 7.86GB 556.5s
+#6 transferring context: 7.86GB 561.5s
+#6 transferring context: 7.91GB 566.5s
+#6 transferring context: 7.96GB 571.5s
+#6 transferring context: 8.03GB 576.6s
+#6 transferring context: 8.10GB 581.7s
+#6 transferring context: 8.15GB 586.8s
+#6 transferring context: 8.18GB 592.0s
+#6 transferring context: 8.20GB 597.1s
+#6 transferring context: 8.26GB 602.1s
+#6 transferring context: 8.33GB 607.2s
+#6 transferring context: 8.41GB 612.2s
+#6 transferring context: 8.50GB 617.3s
+#6 transferring context: 8.58GB 623.7s
+#6 transferring context: 8.65GB 628.8s
+#6 transferring context: 8.74GB 633.8s
+#6 transferring context: 8.83GB 638.9s
+#6 transferring context: 8.89GB 642.2s done
+#6 DONE 642.4s
+
+#7 [3/9] COPY requirements.txt /app/requirements.txt
+#7 DONE 1.0s
+
+#8 [4/9] COPY requirements-lock.txt /app/requirements-lock.txt
+#8 DONE 0.1s
+
+#9 [5/9] RUN python3 -m pip install --no-cache-dir --only-binary=:all: --no-deps -r /app/requirements-lock.txt  && pytho
+n3 -c "import torch; assert torch.version.hip and '+rocm' in torch.__version__; print(torch.__version__)"  && python3 -c
+ "from transformers import Qwen3VLForConditionalGeneration, AutoProcessor; import pymupdf"
+#9 3.840 Collecting transformers==4.57.1 (from -r /app/requirements-lock.txt (line 1))
+#9 3.912   Downloading transformers-4.57.1-py3-none-any.whl.metadata (43 kB)
+#9 4.344 Collecting tokenizers==0.22.2 (from -r /app/requirements-lock.txt (line 2))
+#9 4.356   Downloading tokenizers-0.22.2-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (7.3 kB)
+#9 4.501 Collecting safetensors==0.8.0 (from -r /app/requirements-lock.txt (line 3))
+#9 4.512   Downloading safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.2 kB)
+#9 4.564 Collecting huggingface-hub==0.36.2 (from -r /app/requirements-lock.txt (line 4))
+#9 4.575   Downloading huggingface_hub-0.36.2-py3-none-any.whl.metadata (15 kB)
+#9 4.927 Collecting numpy==2.5.3 (from -r /app/requirements-lock.txt (line 5))
+#9 4.972   Downloading numpy-2.5.3-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)
+#9 5.171 Collecting PyMuPDF==1.28.2 (from -r /app/requirements-lock.txt (line 6))
+#9 5.212   Downloading pymupdf-1.28.2-cp310-abi3-manylinux_2_28_x86_64.whl.metadata (26 kB)
+#9 5.234 Requirement already satisfied: packaging==26.3 in /opt/venv/lib/python3.14/site-packages (from -r /app/requirem
+ents-lock.txt (line 7)) (26.3)
+#9 5.287 Collecting filelock==4.0.9 (from -r /app/requirements-lock.txt (line 8))
+#9 5.316   Downloading filelock-4.0.9-py3-none-any.whl.metadata (2.0 kB)
+#9 5.356 Collecting fsspec==2026.9.0 (from -r /app/requirements-lock.txt (line 9))
+#9 5.384   Downloading fsspec-2026.9.0-py3-none-any.whl.metadata (10 kB)
+#9 5.409 Requirement already satisfied: PyYAML==6.0.3 in /opt/venv/lib/python3.14/site-packages (from -r /app/requiremen
+ts-lock.txt (line 10)) (6.0.3)
+#9 6.357 Collecting regex==2026.9.29 (from -r /app/requirements-lock.txt (line 11))
+#9 6.384   Downloading regex-2026.9.29-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.
+metadata (40 kB)
+#9 6.428 Collecting requests==2.34.2 (from -r /app/requirements-lock.txt (line 12))
+#9 6.452   Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+#9 6.496 Collecting tqdm==4.70.1 (from -r /app/requirements-lock.txt (line 13))
+#9 6.510   Downloading tqdm-4.70.1-py3-none-any.whl.metadata (57 kB)
+#9 6.542 Requirement already satisfied: typing-extensions==4.16.0 in /opt/venv/lib/python3.14/site-packages (from -r /ap
+p/requirements-lock.txt (line 14)) (4.16.0)
+#9 6.606 Collecting hf-xet==1.6.0 (from -r /app/requirements-lock.txt (line 15))
+#9 6.628   Downloading hf_xet-1.6.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (4.9 kB)
+#9 6.810 Collecting charset-normalizer==3.5.2 (from -r /app/requirements-lock.txt (line 16))
+#9 6.832   Downloading charset_normalizer-3.5.2-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x8
+6_64.whl.metadata (46 kB)
+#9 6.870 Collecting idna==3.20 (from -r /app/requirements-lock.txt (line 17))
+#9 6.892   Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+#9 6.931 Collecting urllib3==2.8.0 (from -r /app/requirements-lock.txt (line 18))
+#9 6.950   Downloading urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+#9 6.985 Collecting certifi==2026.7.22 (from -r /app/requirements-lock.txt (line 19))
+#9 7.002   Downloading certifi-2026.7.22-py3-none-any.whl.metadata (2.5 kB)
+#9 7.026 Downloading transformers-4.57.1-py3-none-any.whl (12.0 MB)
+#9 8.401    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.0/12.0 MB 8.7 MB/s  0:00:01
+#9 8.415 Downloading tokenizers-0.22.2-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.3 MB)
+#9 8.877    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 7.0 MB/s  0:00:00
+#9 8.898 Downloading safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (516 kB)
+#9 8.934 Downloading huggingface_hub-0.36.2-py3-none-any.whl (566 kB)
+#9 8.964    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 566.4/566.4 kB 27.4 MB/s  0:00:00
+#9 8.976 Downloading numpy-2.5.3-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.7 MB)
+#9 9.912    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.7/16.7 MB 18.1 MB/s  0:00:00
+#9 9.923 Downloading pymupdf-1.28.2-cp310-abi3-manylinux_2_28_x86_64.whl (25.8 MB)
+#9 11.37    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 25.8/25.8 MB 17.8 MB/s  0:00:01
+#9 11.39 Downloading filelock-4.0.9-py3-none-any.whl (110 kB)
+#9 11.41 Downloading fsspec-2026.9.0-py3-none-any.whl (221 kB)
+#9 11.45 Downloading regex-2026.9.29-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (8
+07 kB)
+#9 11.50    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 807.2/807.2 kB 23.1 MB/s  0:00:00
+#9 11.51 Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+#9 11.53 Downloading tqdm-4.70.1-py3-none-any.whl (80 kB)
+#9 11.55 Downloading hf_xet-1.6.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.5 MB)
+#9 11.79    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.5/4.5 MB 18.4 MB/s  0:00:00
+#9 11.80 Downloading charset_normalizer-3.5.2-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_
+64.whl (255 kB)
+#9 11.83 Downloading idna-3.20-py3-none-any.whl (69 kB)
+#9 11.85 Downloading urllib3-2.8.0-py3-none-any.whl (135 kB)
+#9 11.87 Downloading certifi-2026.7.22-py3-none-any.whl (136 kB)
+#9 12.20 Installing collected packages: urllib3, transformers, tqdm, tokenizers, safetensors, requests, regex, PyMuPDF,
+numpy, idna, huggingface-hub, hf-xet, fsspec, filelock, charset-normalizer, certifi
+#9 34.85   Attempting uninstall: tqdm
+#9 34.86     Found existing installation: tqdm 4.70.0
+#9 34.87     Uninstalling tqdm-4.70.0:
+#9 34.94       Successfully uninstalled tqdm-4.70.0
+#9 39.28   Attempting uninstall: numpy
+#9 39.29     Found existing installation: numpy 2.5.2
+#9 39.41     Uninstalling numpy-2.5.2:
+#9 42.06       Successfully uninstalled numpy-2.5.2
+#9 45.39   Attempting uninstall: fsspec
+#9 45.40     Found existing installation: fsspec 2026.7.0
+#9 45.41     Uninstalling fsspec-2026.7.0:
+#9 45.46       Successfully uninstalled fsspec-2026.7.0
+#9 45.65   Attempting uninstall: filelock
+#9 45.66     Found existing installation: filelock 3.32.3
+#9 45.66     Uninstalling filelock-3.32.3:
+#9 45.69       Successfully uninstalled filelock-3.32.3
+#9 45.85
+#9 45.87 Successfully installed PyMuPDF-1.28.2 certifi-2026.7.22 charset-normalizer-3.5.2 filelock-4.0.9 fsspec-2026.9.0
+ hf-xet-1.6.0 huggingface-hub-0.36.2 idna-3.20 numpy-2.5.3 regex-2026.9.29 requests-2.34.2 safetensors-0.8.0 tokenizers-
+0.22.2 tqdm-4.70.1 transformers-4.57.1 urllib3-2.8.0
+#9 45.87
+#9 45.87 [notice] A new release of pip is available: 26.2.1 -> 26.2.2
+#9 45.87 [notice] To update, run: pip install --upgrade pip
+#9 58.04 2.13.0+rocm10.0.0
+#9 DONE 79.4s
+
+#10 [6/9] COPY models/qwen/ /models/qwen/
+#10 DONE 86.8s
+
+#11 [7/9] COPY app.py worker.py cache_model.py parsers.py retrieval.py answer_v2.py vision_v3.py /app/
+#11 DONE 0.3s
+
+#12 [8/9] RUN mkdir -p /app/corpus /app/output /app/state
+#12 DONE 0.8s
+
+#13 [9/9] RUN python3 -c "from cache_model import locate_model; print(locate_model())"
+#13 0.478 /models/qwen
+#13 DONE 0.5s
+
+#14 exporting to image
+#14 exporting layers
+#14 exporting layers 574.0s done
+#14 exporting manifest sha256:55a43653720ffff066d5cfaa69e3f69d9bcf4fa2e28a9d11d8e22943cbbabdbd 0.1s done
+#14 exporting config sha256:2e757101e15cd3cdd536ebeb1c36d55857f351fc6d1bdc1478aa4e493023df6e 0.0s done
+#14 exporting attestation manifest sha256:afd07f0b000bb063ba88b3bd8ce2c536cb3943c572eafb1b80dd78e5a2fe3b32 0.0s done
+#14 exporting manifest list sha256:65d25847051ab10d0e54d42df735c78b0241387598eed3922f252764b2c647c1 0.0s done
+#14 naming to docker.io/library/madhav-rag:mc3-v3
+#14 naming to docker.io/library/madhav-rag:mc3-v3 0.2s done
+#14 unpacking to docker.io/library/madhav-rag:mc3-v3
+#14 unpacking to docker.io/library/madhav-rag:mc3-v3 328.5s done
+#14 DONE 903.4s
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/9apiy5r0pxtqcyaxh558tbxn6
+UNCOMPRESSED LAYER TOTAL: 37.746 GiB | LIMIT: 60 GiB
+Running offline packaging check (CPU host; GPU inference is not tested here)...
+Model: /models/qwen | shards: 2 | weight GiB: 8.266
+Torch: 2.13.0+rocm10.0.0 | ROCm: 7.15.26333
+MODEL FILES: PASS
+OFFLINE PROCESSOR: PASS
+APPLICATION IMPORTS: PASS
+GPU INFERENCE: NOT TESTED ON THIS CPU HOST
+
+LOCAL BUILD + OFFLINE PACKAGING: PASS
+Docker GPU inference: NOT TESTED. Nothing was pushed or submitted.
+Upload BUILD_REPORT.json and BUILD_LOG.txt to this chat.
+**********************
+Windows PowerShell transcript end
+End time: 20261024171730
+**********************

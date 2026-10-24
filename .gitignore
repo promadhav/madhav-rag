@@ -1,0 +1,11 @@
+models/
+.venv/
+__pycache__/
+state/
+output/
+*.part
+*.safetensors
+*.log
+BUILD_LOG.txt
+BUILD_REPORT.json
+validation-results.json

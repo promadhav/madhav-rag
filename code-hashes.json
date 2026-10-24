@@ -1,0 +1,16 @@
+{
+  "app.py": "f28aa64eb74e7e25aa91dc8c538e200bd60f7a86fefafb4c04f425c5bb2c7bee",
+  "worker.py": "152079a019399e0feada27e4659e4a53a143badd939e2b3554648eef9b5eb8c1",
+  "cache_model.py": "8305325809f7b909da992b8b14df2a43b6995164aea020d9283856f6def9be94",
+  "parsers.py": "9e9708be1e87a2fd440a43d76278e61bf6d3a468f224a7b57a8ddc19fae9116a",
+  "retrieval.py": "697ca88bef546a112c524401846b6c4750305d6d7eac1fed570ae6e85c1794e9",
+  "answer_v2.py": "45e3b0661a63f6d42d25f97c4d007afb765a38f8e6c84448f1830b5fa8a5c7b6",
+  "vision_v3.py": "af5a020cbdfa0ee66588e65f6a065d5baa1630b0d17d0fe5b94b84b159356dd7",
+  "manage_worker.py": "05654e11380f59beb47f6c2c8b8fc20576caa5dd6c6c966647adab505bcf5cc1",
+  "Dockerfile": "53e6a7bdf887f966152e10719aedb54e63c49910ee3a2c1a8ae7a6c752100cc1",
+  ".dockerignore": "86c0e94457e751095a617a5b7f9c0a2a083af954be25ed6958824c610646a10d",
+  "requirements.txt": "c7bdd3c4b517c7237fe8d0257d6a440b0c96490fc64c9f618a951e445b883cf5",
+  "requirements-lock.txt": "c7bdd3c4b517c7237fe8d0257d6a440b0c96490fc64c9f618a951e445b883cf5",
+  "model-download.json": "2e73faf99f3a72d6c529c7ae768d34eddc43dc99e7cdf071eaf00d393205eb2c",
+  "offline_check.py": "70855649ef027449e38aca1f6cd453caabf3fb91dacca476f247340191484e43"
+}

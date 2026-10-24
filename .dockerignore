@@ -1,0 +1,16 @@
+*
+!Dockerfile
+!requirements.txt
+!requirements-lock.txt
+!app.py
+!worker.py
+!cache_model.py
+!parsers.py
+!retrieval.py
+!models/
+!models/qwen/
+!models/qwen/**
+
+!answer_v2.py
+
+!vision_v3.py

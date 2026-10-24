@@ -1,0 +1,41 @@
+MADHAV RAG Qwen3 - Windows Docker build
+
+1. Open Docker Desktop and wait until the engine is running (Linux containers).
+2. Extract this ZIP into a NEW folder. Keep the old OCR/RAG folders.
+3. In the folder containing START_WINDOWS.ps1, click the Explorer address bar,
+   type powershell, and press Enter.
+4. Run:
+   powershell -NoProfile -ExecutionPolicy Bypass -File .\START_WINDOWS.ps1
+5. Wait for LOCAL BUILD + OFFLINE PACKAGING: PASS.
+6. Send BUILD_REPORT.json and BUILD_LOG.txt to ChatGPT.
+
+DATA / SPACE
+- This downloads 8.887 GB of Qwen3 files ON YOUR WINDOWS LAPTOP.
+- The AMD cloud copy is separate. It is not transferred automatically.
+- Existing complete files in models\qwen are reused; partial files can resume.
+- Package download may be about 50-150 MB if uncached; no Torch download.
+- Existing ROCm base layers are expected to be reused. If no known old AMD
+  image is found, the script stops before downloading the model.
+- Keep 35 GiB free for the build. If Docker's data disk is elsewhere, check
+  that drive's free space too. No automatic deletion/cleanup is performed.
+
+RESULT
+- New local image: madhav-rag:mc3-v3.
+- No public push or submission is performed by this script.
+- The final uncompressed layer total must be <=60 GiB.
+- Offline CPU checks validate packaging, not AMD Docker GPU execution.
+- Source tests already observed: official 200/200; custom images 18/20 strict.
+  The custom serving-size gold label was disputed; bottle 473 lacked mL in
+  the response despite correct numeric value. No hidden-score claim.
+
+IF INTERRUPTED
+Run the same command again in the same folder. Downloaded files are checked
+and partial transfers resume. If the build already completed and you only
+need to repeat packaging checks:
+   powershell -NoProfile -ExecutionPolicy Bypass -File .\START_WINDOWS.ps1 -CheckOnly
+
+No Python installation is needed on Windows: checks run inside Docker.
+No passwords/API tokens are needed to download this public model.
+Do not put the models folder, logs, or results on GitHub.
+
+The Docker base digest is pinned to the base previously used for mc3-v2.
