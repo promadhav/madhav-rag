@@ -1,3 +1,15 @@
+## AMD AI Academy — Challenge Repositories
+
+This submission links to two separate challenge projects:
+
+- **Challenge 2 — OCR:** https://github.com/promadhav/madhav-ocr
+- **Challenge 3 — RAG:** https://github.com/promadhav/madhav-rag
+
+The OCR implementation remains in its original repository.
+This repository contains the RAG implementation.
+
+
+
 # MADHAV RAG
 
 Offline document question answering for AMD × lablab AI Academy Mini Challenge 3.
